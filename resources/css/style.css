@@ -216,3 +216,78 @@ body {
   width: 960px;
   height: 5rem;
 }
+
+@media only screen and (max-width: 1024px) /*and (min-width: 470px;)*/ {
+  .pen {
+    width: 47%;
+  }
+  .watch {
+    width: 47%;
+  }
+  .glasses {
+    width: 47%;
+  }
+  .submenu {
+    width: 100%;
+  }
+  .subnav {
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  .subnav h1 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .logo {
+    height: 2rem;
+  }
+  .top h1 {
+    font-size: 1.25rem;
+  }
+  .top {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .box h2 {
+    font-size: 0.77rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .box h1 {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .box {
+    margin-top: 10rem;
+  }
+  .submain {
+    height: 15rem;
+  }
+  .pen {
+    width: 90%;
+  }
+  .watch {
+    width: 90%;
+  }
+  .glasses {
+    width: 90%;
+  }
+  .submenu {
+    width: 100%;
+    flex-direction: column;
+  }
+  .location {
+    width: 90%;
+  }
+  .hours {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+  .subfooter {
+    justify-content: center;
+  }
+  .box {
+    width: 100%;
+  }
+}
